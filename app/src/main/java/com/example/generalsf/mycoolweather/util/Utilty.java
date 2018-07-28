@@ -80,4 +80,8 @@ public class Utilty {
         return false;
     }
 
+    /*8
+    将返回的JSon数据解析成 weather 实体类
+     */
+
 }
