@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    头布局作为标题栏，布局高度设置为actionBar 的高度，背景设置为colorPrimary，TextView 用于显示标题。
+    放置了一个Button 用于返回操作，这里自定义标题栏是因为碎片中最好不要使用ActionBar 或者 Toolbar，不然复用时会出现异常效果。
+    头布局下面定义了一个ListView。之所以使用ListView，是因为ListView 会为没每个子项添加一个分割线，RecyclerView 实现同样的功能
+    会比较麻烦。
+-->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"

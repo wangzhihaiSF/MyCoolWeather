@@ -3,8 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <fragment
+    <!--
+    碎片布局里自定义了标题栏了， 所以不在需要原生的actionBar了
+     -->
+   <fragment
         android:id="@+id/choose_area_fragment"
         android:name="com.example.generalsf.mycoolweather.ChooseAreaFragment"
         android:layout_width="match_parent"

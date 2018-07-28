@@ -31,6 +31,10 @@ import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Response;
 
+/**
+ * 遍历省市县数据的碎片
+ */
+
 public class ChooseAreaFragment extends Fragment {
 
     public static final int LEVEL_PROVINCE = 0;
@@ -42,7 +46,7 @@ public class ChooseAreaFragment extends Fragment {
     private Button backButton;
     private ListView listView;
     private ArrayAdapter<String> adapter;
-    private List<String> dataList = new ArrayList<>();
+    private List<String> dataList = new ArrayList<>(); //dataList 是放入适配器adapter 中的数据
 
     private List<Province> provinceList; //省列表
     private List<City> cityList;         //市列表
